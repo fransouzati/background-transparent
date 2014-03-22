@@ -1,4 +1,4 @@
-/* background transparent */
+/* background transparent - linear gradient */
 body {
 	background: linear-gradient(45deg, currentColor 25%,
   transparent 25%, transparent 75%, currentColor 75%,
