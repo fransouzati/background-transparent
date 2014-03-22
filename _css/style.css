@@ -1,0 +1,41 @@
+/* background transparent */
+body {
+	background: linear-gradient(45deg, currentColor 25%,
+  transparent 25%, transparent 75%, currentColor 75%,
+  currentColor), linear-gradient(45deg, currentColor 25%,
+  transparent 25%, transparent 75%, currentColor 75%, 
+  currentColor) 10px 10px;
+  background-color: #eee;
+  background-size: 20px 20px;
+  color: #bbb;
+}
+
+/* text content and link */
+h1 {
+  text-align: center;
+  color: #000;
+}
+
+h1:before {
+	content: 'Background Transparent';
+	font-family: Arial;
+	font-size: 2em;
+	color: #069;
+	margin-right: 10px;	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+a:after {
+	content: 'Project by Mateus R. Ocana';
+	font-family: Arial;
+	font-size: 1em;
+	color: #000;
+}
